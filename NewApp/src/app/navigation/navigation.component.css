@@ -1,0 +1,133 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; } 
+
+.margin-div {
+    margin: 20px 0 0 10px;
+}
+
+.margin-button {
+    margin: 1% 0 0 7%;
+}
+
+.header-button {
+    margin-left: 20px;
+    float: right;
+    width: 150px;
+    height: 50px;
+    background-color: #007680;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation-button {
+    margin-right: 20px;
+    float: right;
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-padding{
+    padding-left: 18px;
+}
+
+.create-menu-padding{
+    padding-left: 32px;
+}
+
+.infor-padding{
+    padding-top: 2%;
+}
+
+.info-button {
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: #E1DCDC;
+    border:  none;
+    cursor: pointer;
+}
+
+.add-item-button {
+    float: right;
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #65BDE3;
+}
+
+textarea{
+    resize: none;
+}
+
+.input-info{
+    margin-top: 25px;
+}
+
+input.input-info {
+    height: 50px;
+}
+
+.info-button:focus {
+    background-color: #CAE1E6;
+}
+
+.navigation-button:focus{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.navigation-button, .add-item-button:hover{
+    cursor: pointer;
+}
+
+#info {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+#info td, #info th {
+    padding: 8px;
+}
+
+
+#info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #968C83;
+    color: white;
+}
+
+.navbar-content {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.main {
+  margin-top: 100px;
+  height: 1500px;
+}
+
+.select-item {
+    position: fixed;
+    top: 110px;
+}
+
+.menu-item{
+    margin: 40px 0 20px 0;
+}
